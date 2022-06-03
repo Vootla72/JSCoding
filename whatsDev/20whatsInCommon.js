@@ -17,6 +17,7 @@ function whatsInName(collection, source) {
 function whatsInName1(collection, source) {
   var keys = Object.keys(source); //last..........collecting keys of source array
   return collection.filter((obj) => {
+    console.log(obj, obj.hasOwnProperty);
     for (var key of keys) {
       if (!obj.hasOwnProperty(key) || obj[key] !== source[key]) {
         return false;
