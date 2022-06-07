@@ -1,0 +1,50 @@
+function getApiData(){
+try{
+const dataResponse= fetch('https://google.com").then(()=>return data);
+console.log(dataResponse);
+return dataResponse.data;
+}
+catch(e){
+console.log(e);
+}
+
+{
+data:{
+}
+}
+
++----+-------+--------+-----------+
+| Id | Name  | Salary | ManagerId |
++----+-------+--------+-----------+
+| 1  | Joe   | 70000  | 3         |
+| 2  | Henry | 80000  | 4         |
+| 3  | Sam   | 60000  | NULL      |
+| 4  | Max   | 90000  | NULL      |
++----+-------+--------+-----------+
+Write a query to identify the employees who earn more than their managers.
+
+select Name from EmployeeTable where EmplyeeTable.Id!=ManagerId
+
+[{id:1,Name:'',salary:7000},{id:1,Name:'',salary:8000},{id:1,Name:'',salary:9000}]
+function maxi(arr){
+var res={};
+var max=0;
+arr.map((ele)=>{
+
+if((ele.salary)>max){
+max=salary;
+res.push(ele.Name,ele.salary);
+
+}
+return res;
+}
+
+198--blue;
+2-red
+
+life cycle of component
+2.props and state
+3. parent -child1 n child2 --- pass the data from child1 to child2 not through parent --using state management
+4.diff b/n Authentication and authorization
+5.on click event props changed hw to send to parent
+6.what is map function--higher order functions

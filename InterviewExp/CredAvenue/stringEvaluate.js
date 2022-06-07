@@ -52,3 +52,5 @@ console.log(evaluate1('1+2+3+6-5'));
 //   return res;
 // }
 // console.log(evaluate('1+2+3+4-4-5'));
+
+// Actual Que: ("1+2+3-(1+5)")
