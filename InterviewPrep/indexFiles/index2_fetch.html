@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div id="getEmail"></div>
+    <script>
+      const getEmailByElement = document.getElementById('getEmail');
+      const EMAIL_DATA_URL = 'https://flipkart-email-mock.vercel.app/';
+      fetch(EMAIL_DATA_URL)
+        .then((response) => response.json())
+        .then((responseJson) => {
+          console.log(responseJson.list);
+          //try to display the data fetched from the EMAIL_DATA_URL
+          for (let email of responseJson.list) {
+            console.log('email', email);
+            const emailFact = document.createElement('p');
+            emailFact.innerHTML = email.short_description;
+            getEmailByElement.append(emailFact);
+          }
+        });
+    </script>
+  </body>
+</html>

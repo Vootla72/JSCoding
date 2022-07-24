@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+.header {
+  background-color: blue;
+  color: #fff;
+  padding: 30px 20px;
+  /* 30px top-bottom and 20px-left and right */
+}
+.header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px; /*rounded corners*/
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+}
+.header input:focus {
+  outline: none;
+}
+.user-list {
+  background-color: #ffff;
+  list-style-type: none;
+  /* max-height: 400px; */
+}
+.user-list li {
+  display: flex;
+  padding: 20px;
+}
+.user-list img {
+  /* border-radius: 50%; */
+  /* to round the face image*/
+  /* object-fit: cover; */
+  /*to show the whole image*/
+  /* width: 50%;
+  height: 50%; */
+  font-size: 1em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+  background: plum;
+  /* vertical-align: middle; */
+  margin-right: 1em;
+  color: white;
+}
+.user-list .user-info {
+  margin-left: 10px;
+}
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+.user-list .user-info p {
+  font-size: 12px;
+}
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.user-list li.hide {
+  display: none; /*on search it should not be visible*/
+}
+.expand {
+  display: inline-block;
+  width: 50%;
+  height: 80%;
+}
+.short {
+  display: inline-block; /*on search it should not be visible*/
+  width: 50%;
+  height: 80%;
+}
+.Expand {
+  display: inline-block; /*on search it should not be visible*/
+  height: 80%;
+}
