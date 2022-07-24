@@ -1,0 +1,21 @@
+find below, some of the most common front end interview questions that i went through during my job hunt journey!
+
+the questions are majorly focused on HTML, CSS, javascript and React JS.
+
+1. difference between async and differ.
+2. what are semantic tags in HTML and its benefits.//https://www.simplilearn.com/tutorials/html-tutorial/html-semantics#:~:text=The%20semantic%20HTML%20tags%20help,offers%20a%20better%20user%20experience.
+3. use of !Doctype.
+4. unique tags and features in HTML 5.
+5. flex box and its properties.
+6. position property.
+7. how to implement media queries.
+8. center a div 😂//https://blog.hubspot.com/website/center-div-css#:~:text=You%20can%20do%20this%20by,the%20div)%20vertically%20and%20horizontally.
+9. create a footer and header component.
+10. new features in ES6.
+11. difference between var, let and const, and hoisting behaviour in these 3.
+12. closures with examples.
+13. common pseudo codes with set time interval function.
+14. implementation of promises and async- await.
+15. reverse array, remove duplicates, reverse string, flat the multi dimensional array, use filter, map and reduce methods, merge arrays, sort arrays, palindrome, Fibonacci series, longest word in a string, longest common string from array of strings, count of characters occuring in array, first pair whose sum is zero, unique values in 2 arrays and other standard questions using javascript.
+
+16.create chessboard by taking input of size from user. 17. objects and classes in javascript. 18. create hamburger icon with functionality. 19. difference between class based and functional based components. 20. lifecycle methods in react. 30. various hooks and their uses. 31. memorization in react js. 32. difference between useMemo and useCallback. 33. custom hooks. 34. HOC 35. implement dark theme ,light theme toggle. 36. create a counter. 37. fetch data from api and display in table. 39. show or hide div using button. 40. filtering of data in table. 41. sorting of data . 42. pagination 43. context APIs 44. where to use context and where to use redux. 45. redux thunk, redux saga ,RTK (redux tool kit) 46. passing data from children to parent. 47. demonstrate use of state and props using examples.

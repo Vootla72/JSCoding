@@ -1,0 +1,6 @@
+1.diff between ReactJS, Angular and bootstap
+2.wt is JSX
+3.Agile Methodology vs Waterfall Method
+4.wt are the key factors to be considered while developing web applications
+5.OOPS concepts
+6.consumer React API's

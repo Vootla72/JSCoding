@@ -29,6 +29,7 @@ console.log(printLog());
 //     console.log(array[i]);
 //   }, 5000);
 // }
+//o/p 1 2 3 4 5 at a time after 5 seconds
 
 // const timer = ms => new Promise(res => setTimeout(res, ms))
 

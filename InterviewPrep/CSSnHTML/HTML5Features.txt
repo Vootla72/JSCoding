@@ -1,0 +1,10 @@
+Intro of audio and video:
+Header and Footer:
+Nav tag
+Progress tag:
+Placeholder Attribute:
+Email attribute:
+Storage:   In the case of HTML, we can use the browser as the temporary storage whereas, in the case of HTML5, application cache, web SQL database, and web storage is used.
+Ease of use
+
+Link:https://www.geeksforgeeks.org/top-10-new-features-of-html5/

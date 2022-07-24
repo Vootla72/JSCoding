@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Flipkart Form</title>
+  </head>
+
+  <body>
+    <!-- function clickHandler(){ console.log('submitted') } -->
+    <div class="container">
+      <form id="myForm" onsubmit="clickHandler()">
+        <label for="Field Name" class="label-field">Field Name</label><br />
+        <input
+          type="text"
+          name="Field Name"
+          placeholder="Field Name"
+          id="Field Name"
+          required
+        /><br />
+        <label for="Field Type" class="label-field">Field Type</label><br />
+        <input
+          type="text"
+          name="Field Type"
+          id="Field-Type"
+          placeholder="Field Type"
+          required
+        /><br />
+        <label for="Field Place Holder" class="label-field"
+          >Field Place Holder</label
+        ><br />
+        <input
+          type="text"
+          name="Field Place Holder"
+          placeholder="Field Place Holder"
+          id="Field Place Holder"
+          required
+        /><br />
+        <label for="Field default value" class="label-field"
+          >Field default value</label
+        ><br />
+        <input
+          type="text"
+          name="Field default value"
+          placeholder="Field default value"
+          id="Field default value"
+        /><br />
+        <span>Required</span><br />
+        <input type="radio" id="yes" name="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="no" />
+        <label for="no">No</label><br />
+      </form>
+      <button class="submitBtn" id="submitButton" onclick="clickHandler()">
+        Add Field
+      </button>
+    </div>
+    <div class="subContainer">
+      <form id="newForm"></form>
+    </div>
+    <script>
+      function clickHandler() {
+        var fieldName = document.getElementById('Field Name').value;
+        var fieldType = document.getElementById('Field-Type').value;
+        var fieldDefault = document.getElementById('Field default value').value;
+        var fieldPlaceHolder =
+          document.getElementById('Field Place Holder').value;
+        var requiredValue = document.getElementById('yes').value;
+        console.log('submitButton clicked', fieldName, requiredValue);
+      }
+    </script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

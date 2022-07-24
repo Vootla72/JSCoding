@@ -1,0 +1,8 @@
+1.Escape characters in JS -------- https://www.tutorialspoint.com/escape-characters-in-javascript
+2.setTimeout in var and let forLoop 
+3.Visibility: hidden and display:none
+4.define this.setState 
+5.Advantages of semantic HTML -- A semantic element clearly describes its meaning to both the browser and the developer.
+6.diff between class and functional based components in React
+7.wt are the types in TypeScript
+8.useReducer Hook

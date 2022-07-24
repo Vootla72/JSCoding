@@ -1,0 +1,24 @@
+Oracle is a multinational technology corporation that offers database management solutions, enterprise products, and cloud solutions.
+Oracle has an inclusive cultural environment that makes it one of the top places to work for engineers. Its decentralized culture, owing to the acquisition of several smaller companies, ensures the elimination of any unwelcome interference in the day-to-day operation of teams across the board. 
+
+Oracle is a computer technology corporation best known for its software products and services like Java. Through the company's four main business segments—cloud and license, hardware, and services—Oracle sells its cloud-engineering services and systems and database management systems.
+
+Tip 1 : Oracle technologies are modern, cutting edge and built for enterprise requirements (think world class security, availability, performance, scalability, integrated ML/AI and so forth). Oracle Database is #1 worldwide.
+Tip 2 : Since it’s inception, Oracle has become a market leader when it comes to database. Oracle has its own all possible solution for it’s clients whether it is into IT or Banking.
+Tip 3 : Oracle gives your job sustainability with better career growth - in terms of job profile and package both.
+
+Application developer:
+The Oracle Applications Developer will be responsible for designing, developing, implementing, customizing and integrating Oracle e-Business Suite applications with other systems, and providing ongoing support and future enhancements of those solutions.
+This position will be responsible for ensuring Expedia’s Oracle e-Business Suite portfolio of applications are designed to meet evolving business requirements and standards for reliability, scalability, availability, and usability.
+* This position will also work with team members as needed to scope, design, develop, test, implement, support and enhance Oracle e-Business Suite solutions.
+* Design Develop utilities to ensure we have modular approach in programming for uniformity & to improve productivity.
+* Work with Oracle functional business analysts to gather business requirements, translate them into specifications documents.
+* Responsible for coding and unit testing application software across production support, enhancements and projects.
+* Collaborate with business partners, Systems Analysts and Application Developers and to translate business requirements into logical, component-based technical designs.
+* Meet service level agreements for production support response and resolution.
+* Design and develop technical solutions to a pre-defined requirement and develop components including extensions, views, customizations, modifications, reports, and workflows independently or as a part of a team.
+* Follow documentation, software development methodology, version control and testing, and migration standards.
+* Develop a cooperative environment that fosters knowledge sharing.
+* Provide technical guidance and mentoring to others in areas of expertise.
+* Ability and willingness to learn regarding the applications and their ecosystem.
+* Review of code and make recommendations based on industry best practices, participate in analysis discussions to ensure the business requirements are met.

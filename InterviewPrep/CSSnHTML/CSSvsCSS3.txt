@@ -1,0 +1,31 @@
+
+CSS	CSS3
+It doesn’t support media queries.||	For responsive web designing, it supports media queries.
+New web browsers do not support CSS. ||	New Web browsers support CSS3.
+CSS isn’t compatible with CSS3.	CSS3 is backwards compatible even with CSS.
+CSS uses an old standard colour format.||	CSS3 provides a different gradient colour and schemes like RGBA, HSLA, HSL, and other colour gradients.
+CSS does not have the concept of modules.||	CSS3 incorporates a new feature where it can group CSS codes into convenient modules. Modules ensure that all styles for a specific component will reside in one place.
+
+CSS3 features:
+Advanced Animations. We can utilize both Transition and Animation when it is required to change a component starting with one state moving/transitioning onto the next. ...
+Multiple Backgrounds & Gradient. ...
+Multiple Column layouts. ...
+Opacity. ...
+Rounded Corner: ...
+Selectors.
+
+CSS3 features:
+12. CSS 3D Transforms
+11. CSS Columns
+10. Multiple Backgrounds
+9. Media Queries
+8. Border Images
+7. Box Sizing
+6. Webfonts
+5. Gradients-CSS3 provides a different gradient colour and schemes like RGBA, HSLA, HSL, and other colour gradients.
+4. Generated Content and Counters
+3. Advanced Selectors
+2. Calculating Values With calc()
+1. CSS Animations and Transitions
+
+Link:https://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use

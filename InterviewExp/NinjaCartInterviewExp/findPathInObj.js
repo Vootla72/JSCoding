@@ -9,15 +9,15 @@ var obj = {
 obj.findPath = function (path) {
   const keys = path.split('.');
   return keys.reduce((currentPath, key) => {
-    console.log(this, currentPath, currentPath[key]);
+    console.log(currentPath, currentPath[key]);
     return currentPath && currentPath[key];
   }, this);
 };
 
 console.log(obj.findPath('a'));
-console.log(obj.findPath('a.b'));
-console.log(obj.findPath('a.b.c'));
-console.log(obj.findPath('a.b.c.d'));
+// console.log(obj.findPath('a.b'));
+// console.log(obj.findPath('a.b.c'));
+// console.log(obj.findPath('a.b.c.d'));
 
 //M-2 ans
 

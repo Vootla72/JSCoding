@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.container {
+  width: 100%;
+  border: 5px;
+  /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); */
+  padding: 20px 20px;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.subContainer {
+  padding: 20px 20px;
+  flex-direction: column;
+  /* display: inline-block; */
+  width: 80%;
+  border: 1px solid black;
+}
+/* .InputForm-class {
+  flex-direction: column;
+} */
+.submitBtn {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+}
+/* input {
+  width: 25vw;
+} */
+input[type='text'] {
+  width: 25vw;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type='radio'] {
+  /* width: 25vw; */
+  /* padding: 12px 20px; */
+  margin: 25px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

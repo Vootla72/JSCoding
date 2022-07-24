@@ -1,0 +1,4 @@
+1.wt is eventloop in JS 
+2.when a function is blocking the execution as it takes more time hw to overcome it?--------- send it as a callback fn and make setTimeout duration to zero
+3.explain FLEX in CSS
+4.wt is JOT in JWT

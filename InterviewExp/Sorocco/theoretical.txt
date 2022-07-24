@@ -1,0 +1,17 @@
+1.diff b/n == and ===
+2.which is faster == or ===    ---> === as first it compares type and  if not match it will throw
+3.diff b/n some and includes in array methods
+4.what are diff array methods
+5.diff b/n var,let and const
+6. const a={b:6}
+a.b=5;// in order to restrict here also we use Object.freeze
+a={b:8} //throws type error
+console.log(a.b)
+7.local storage vs session storage
+8.what is border box and which elements are clickage in that
+9.Ways to center a div
+10.what is closure
+11.ex of closure --- currying --problem
+12.what is palindrome -- problem
+13.what is an arrow function
+14.diff b/n named function and arrow function

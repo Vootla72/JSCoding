@@ -1,0 +1,11 @@
+1.primitive and non-primitive data types in JS
+2.call,Apply,Bind method in js
+3.promises and setTimeout - microtask and task queue
+4.wt is scope
+5.function declaration and function expression in js
+6.hw Synchronous single threaded language
+
+IR-2
+1.diff hooks
+2.diff b/n useMemo and useCallback hooks in react
+3.Controlled vs uncontrolled components

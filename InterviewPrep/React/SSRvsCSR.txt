@@ -1,0 +1,21 @@
+What is Server-side Rendering?
+SSR (Server-side Rendering) is method or concept when HTML is build on server rather than in the browser (client).
+
+There are two primary reasons why you should consider using Server-side rendering:
+
+Search engine optimization (SEO).
+Perceived performance.
+
+//////////////////////////////
+What is Client-side Rendering?
+CSR (Client-side rendering), happens when a empty HTML file is first served to the browser and then HTML is build on the browser and the painting is started.
+
+Based on the architecture, CSR has also many advantages over SSR:
+
+CSR must be considered for static pages/content to reduce time taken First Meaningful Paint.
+CSR, can be chosen when there is a strong tendency to use mobile web.
+
+////////////////////////////////////////////////////////////////
+Server-side rendering initially means every page is rendered and loaded from the server. The initial page is rendered from the server, meaning the subsequent pages load directly from the client.
+
+Link:https://theamanverma.medium.com/what-is-csr-ssr-in-react-14bc3ea2ca32

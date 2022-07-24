@@ -1,0 +1,6 @@
+https://javascript.plainenglish.io/react-lifecycle-methods-in-functional-components-db72e038bd2a
+
+Lifecycle methods are special methods built into React, used to operate on components throughout their duration in the DOM.
+
+element vs component
+https://www.geeksforgeeks.org/what-is-the-difference-between-element-and-component/

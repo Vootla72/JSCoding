@@ -1,0 +1,15 @@
+1.what are the hooks used in your project
+2.what are selectors
+3.Tailwind css used?
+4.what are hooks 
+5.what are the rules of custom hook
+6.wt is responsive web applications
+7.Implement data fetch from an API and display them in the table--// https://restcountries.com/v3.1/all
+---->display name ,flag as an Image ,population and currency--optional
+
+https://www.aspsnippets.com/Articles/ReactJS-Fetch-Data-from-API-and-display-in-Table.aspx
+
+//IR-2 -theoretical
+
+1.wt is the size of the project
+2.what is package.json

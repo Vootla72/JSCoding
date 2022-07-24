@@ -1,12 +1,14 @@
-var obj = {
-  hasOwnProperty: 1,
-  foo: 2,
-};
-const keys = Object.keys(obj);
-console.log(keys); //array of keys as a string
-console.log(obj.hasOwnProperty('foo')); //key should be always string to search for the specific
+// var obj = {
+//   hasOwnProperty: 1,
+//   foo: 2,
+// };
+// const keys = Object.keys(obj);
+// console.log(keys); //array of keys as a string
+// console.log(obj.hasOwnProperty('foo')); //key should be always string to search for the specific
 //property is present in the obj or not
-// console.log(new Set([1, 2, 3, 4, 4]));
+// console.log(new Set([1, 2, 3, 4, 4])); //o/p:{1, 2, 3, 4}
+
+// deep cloning --- not nested objects
 // const obj1 = {
 //   a: 5,
 //   b: {
@@ -19,7 +21,7 @@ console.log(obj.hasOwnProperty('foo')); //key should be always string to search 
 // const obj3 = { ...obj1 };
 // // console.log(obj3);
 // obj1.b.c = 8;
-// // console.log(obj1);
+// console.log(obj1, obj2, obj3);
 // console.log(Object.assign({}, obj1, obj2, obj3));
 
 // var foo = function () {
@@ -53,4 +55,4 @@ console.log(obj.hasOwnProperty('foo')); //key should be always string to search 
 //   person.call(this, id, name1);
 // }
 // console.log(new student(50, 'bhav').name1);
-//o/p:undefined
+// o/p:undefined

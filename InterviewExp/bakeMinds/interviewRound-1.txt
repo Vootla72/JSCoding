@@ -1,0 +1,12 @@
+1.Difference between HTML and React Events.
+2.Stages in Mounting 
+3.how does the events in React differ from javascript 
+4.what is console.log() and why it is used
+5.what is the difference between React context and redux
+6.Exceptions on React Component 
+7.what will happen when we use setStae in constructor 
+8.what is the difference between virtual dom and shadow dom
+9.how to create array in js 
+10.what is the use of style modules
+11.why super constructor with args as props used 
+12.what are the polyfills used in React App
