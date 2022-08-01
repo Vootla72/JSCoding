@@ -13,3 +13,7 @@ https://www.aspsnippets.com/Articles/ReactJS-Fetch-Data-from-API-and-display-in-
 
 1.wt is the size of the project
 2.what is package.json
+
+//IR2--managerial
+
+1.wt would u do when ur colleague didnt cmplte in the deadline and u have done with ur task
