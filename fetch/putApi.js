@@ -21,3 +21,6 @@ fetch('https://jsonplaceholder.typicode.com/todos/5', {
 “completed”: false
 }
 */
+
+
+// POST" is typically used for creating new resources, while "PUT" is used for updating or replacing existing resources.

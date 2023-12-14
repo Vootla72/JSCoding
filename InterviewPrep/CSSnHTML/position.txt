@@ -1,0 +1,51 @@
+// Position : relative vs absolute
+absolute means it will sit at the top
+
+<body>
+    <View1>
+        <Vieew2>
+
+
+
+
+
+        <View2>
+    </View1>
+</body>
+
+Case1:   View1: Width:100%, height:100%
+         View2: Width:100%, height:100%, Position:absolute
+        
+As position is not relative for View1 styles, view2 will sit at the top of body(as body is parent)
+
+
+Case2:   View1: Width:100%, height:100%, Position:relative
+         View2: Width:100%, height:100%, Position:absolute
+
+As position is  relative for View1 styles, view2 will sit at the top of View1(as View1 is parent- relative mentioned)
+
+here we r not able see any difference as width n height are 100%.
+
+
+
+Case3:   View1: Width:50%, height:50%, Position:relative
+         View2: Width:100%, height:100%, Position:absolute
+
+As position is  relative for View1 styles, view2 will sit at the top of View1(as View1 is parent- relative mentioned)
+
+here parent is 50% so view2 will take 100% wrt to its parent and sit at the top wrt View1
+
+
+
+
+*****************************************************************************************************************
+
+
+
+//sticky vs fixed
+
+sticky : toggles between relative n fixed depending on the scroll position. 
+It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+you must also specify at least one of top, right, bottom or left for sticky positioning to work.
+
+fixed: the css style position fixed indicates that particular element will be fixed at that position.

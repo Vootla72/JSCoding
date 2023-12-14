@@ -4,9 +4,58 @@
 4.what is console.log() and why it is used
 5.what is the difference between React context and redux
 6.Exceptions on React Component 
-7.what will happen when we use setStae in constructor 
+7.what will happen when we use setState in constructor 
 8.what is the difference between virtual dom and shadow dom
 9.how to create array in js 
 10.what is the use of style modules
 11.why super constructor with args as props used 
 12.what are the polyfills used in React App
+
+
+**********************Sol********************************
+
+1.Difference between HTML and React Event Handling :
+
+Event handling in HTML and React are different from one another in terms of syntax and some rules. 
+The reason behind this is that React works on the concept of virtual DOM, on the other hand, the HTML has access to the Real DOM all the time.
+
+------see the png attached------
+source:https://www.geeksforgeeks.org/difference-between-html-and-react-event-handling/
+
+
+
+***********************
+
+3.There are some syntax differences: React events are named using camelCase, rather than lowercase.
+ With JSX you pass a function as the event handler, rather than a string.
+
+
+****************
+
+4.The log() method writes (logs) a message to the console.
+
+********************
+
+5.Context API is a built-in React tool that does not influence the final bundle size, and is integrated by design.
+Redux: Additional installation Required, driving up the final bundle size.
+
+https://dev.to/ruppysuppy/redux-vs-context-api-when-to-use-them-4k3p
+
+
+********************
+
+6.React Error Boundary  --- used only in class components
+Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
+Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
+
+for functional components - use try/catch block
+https://dev.to/edemagbenyo/handle-errors-in-react-components-like-a-pro-l7l
+
+********************
+
+
+
+
+
+
+

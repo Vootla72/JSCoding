@@ -1,4 +1,7 @@
-// The PATCH method is very similar to the PUT method because it also modifies an existing resource. The difference is that for the PUT method, the request body contains the complete new version, whereas for the PATCH method, the request body only needs to contain the specific changes to the resource, specifically a set of instructions describing how that resource should be changed, and the API service will create a new version according to that instruction.
+// The PATCH method is very similar to the PUT method because it also modifies an existing resource. The difference is that for the PUT method, 
+// the request body contains the complete new version, whereas for the PATCH method, the request body only needs to contain the specific changes
+//  to the resource, specifically a set of instructions describing how that resource should be changed, and the API service will create a new version
+//  according to that instruction.
 
 // PATCH to the resource id = 1
 // update that task is completed

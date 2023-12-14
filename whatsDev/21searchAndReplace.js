@@ -25,3 +25,9 @@ function myReplace1(str, before, after) {
   return words.join(' ');
 }
 console.log(myReplace1('i am Bhavana vootla', 'Bhavana', 'bhav'));
+
+
+
+//Note:
+
+// replace method returns new string and it will not idiify the original string

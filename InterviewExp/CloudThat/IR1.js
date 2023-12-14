@@ -3,7 +3,7 @@ var number = 189765;
 //o/p2:18765
 //o/p3:18865
 //o/p4:18965
-//o/p3:18975
+//o/p5:18975
 
 //first number is avg of first two digits and remaining same
 //second number is avg of second two digits and remaining same
@@ -27,6 +27,7 @@ const reverseConsonants = (str = '') => {
   let i = 0,
     j = arr.length - 1;
   const consonants = 'bcdfghjklnpqrstvwxyz';
+  
   const vowels = 'aeiou';
   while (i < j) {
     while (i < j && vowels.indexOf(arr[i]) != -1) {

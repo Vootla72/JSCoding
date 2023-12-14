@@ -6,3 +6,98 @@
 6.diff between class and functional based components in React
 7.wt are the types in TypeScript
 8.useReducer Hook
+
+
+
+
+
+******************SOLUTIONS*******************
+
+
+1.Escape Characters are the symbol used to begin an escape command in order to execute some operation.
+They are characters that can be interpreted in some alternate way 
+than what we intended to. Javascript uses ‘\‘ (backslash) in front as an escape character.
+
+*********************************
+
+3.visibility:hidden hides the element, but it still takes up space in the layout. 
+display:none removes the element from the document. It does not take up any space.
+
+********************
+4.Changing the state Object
+this is mainly focussed in class components in react.
+To change a value in the state object, use the this.setState() method.
+When a value in the state object changes, the component will re-render,
+meaning that the output will change according to the new value(s).
+
+*******************************
+
+5.A semantic element clearly describes its meaning to both the browser and the developer.
+
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article>,<header>,<footer> - Clearly defines its content.
+
+
+6.Function components are a means to create components in React that do not have their state and only return JSX. 
+React hooks are used by functional components to provide the same functionality as class components.
+Since the functional component does not store or handle the state, it is also referred to as a stateless component. 
+React does, however, provide a hook called useState() that enables function components to keep track of their state.
+
+What are Class Components?
+In comparison to functional components, class components are more complex. To develop class-based components in React,
+we can use JavaScript ES6 classes. To define a React component class, you need to extend React.Component. You must develop a render method that returns a React element by extending from React.Component. Data can be passed between classes and between class components. A valid class component is displayed in the example below.
+
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+
+Due to their ability to contain or manage local states, class components are also known as stateful components.
+
+The life cycle of a class component is accessible through specific callback APIs, 
+which also provide access to each life cycle event.
+Your application will be inefficient if class-based components are used when they are not necessary.
+
+********************************
+
+7.TypeScript can be strongly typed, while JavaScript is dynamically typed only.
+Basic types in TypeScript
+-boolean
+-string
+-number
+
+
+
+
+
+
+*********************************
+
+8.Use Reducer Hook
+
+The useReducer Hook is similar to the useState Hook.
+
+It allows for custom state logic.
+
+If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful.
+
+
+
+const [state,dispatch] = useReducer(reducer,initialState);
+
+reducer: The reducer is a function that specifies how the state should be updated in response to different actions. It takes the current state and an action as parameters and returns the new state. In your case, the only action it handles is "COMPLETE", and it toggles the complete property of the todo with the specified id.
+
+useReducer: This is a Hook that is used for state management in React. It takes two arguments: the reducer function and the initial state. It returns an array with two elements - the current state and a dispatch function.
+
+state: This is the current state of your component. In your example, it represents the array of todos.
+dispatch: This is a function used to dispatch actions to update the state. When you call dispatch({ type: "COMPLETE", id: todo.id }), it triggers the reducer to update the state based on the "COMPLETE" action.
+
+
+
+
+JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+
+

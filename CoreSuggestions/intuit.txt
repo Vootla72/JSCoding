@@ -1,0 +1,40 @@
+1
+Resume Shortlist Round
+
+Pro Tip by AmbitionBox:
+Keep your resume crisp and to the point. A recruiter looks at your resume for an average of 6 seconds, make sure to leave the best impression.
+View all Resume tips
+2
+One-on-one Round (1 Question)
+Q1. Screen Round - Basic javascript and react based questions and api related questions with hands-on. All javascript basic questions like map v/s for each , redux ,context api , events and
+Add Answer
+
+Collapse 
+3
+Assignment Round
+Assignment will be given and then after completing it code assesment round .
+Where they will judge and question based on the code which you have written
+
+4
+Technical Round (1 Question)
+Q1. Covers all the topics in javascript from basic to advanced including prototypes . React basics and complete hooks based questions and hands on coding question on react custom hooks
+Add Answer
+
+Collapse 
+5
+Technical Round (1 Question)
+Q1. Based on my project and technologies I'm working on knowledge about the server side rendering and how javascript renders everything! With one prototype based question and one asynchronous based memorized function question
+Add Answer
+
+Collapse 
+6
+Behavioral Round (1 Question)
+Q1. Completely based on my previous projects and works and resume related
+Add Answer
+
+Interview Preparation Tips
+Interview preparation tips for other job seekers
+- Prepare well on basics as well as advanced topics it will be easy to crack! not too tough and not on any DSA related
+
+
+source url:https://www.ambitionbox.com/interviews/intuit-interview-questions

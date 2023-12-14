@@ -10,10 +10,10 @@
 
 // deep cloning --- not nested objects
 // const obj1 = {
-//   a: 5,
-//   b: {
-//     c: 6,
-//   },
+  //   a: 5,
+  //   b: {
+    //     c: 6,
+  //   },
 // };
 // // console.log(obj1);
 // const obj2 = Object.assign({}, obj1);
@@ -56,3 +56,23 @@
 // }
 // console.log(new student(50, 'bhav').name1);
 // o/p:undefined
+
+
+// here u binded the variables to the person function
+
+// function person(id, name1) {
+//     this.id = id; // attaching properties to the object
+//     this.name1 = name1;
+//   }
+  
+//   function student(id, name1) {
+//     person.call(this, id, name1);
+//   }
+  
+//   console.log(new student(50, 'bhav').name1);
+// o/p: 'bhav'
+
+
+// reason for undefined o/p:the person function does not attach the id and name1 properties to the object explicitly using this. 
+// Instead, it declares local variables id and name1 within the function scope.
+// As a result, these variables are not accessible outside the person function.

@@ -2,7 +2,17 @@
 // console.log(i);
 
 //javascript vs react
+
+// Virtual DOM:
+// JavaScript: JavaScript does not inherently provide a virtual DOM. When you make changes to the UI, JavaScript directly updates the browser's DOM (Document Object Model), which can be inefficient for complex applications.
+// React.js: React uses a virtual DOM to optimize UI updates. Instead of directly modifying the actual DOM, React first updates a virtual representation of the DOM in memory.
+// It then calculates the minimal set of changes needed to update the actual DOM, resulting in improved performance and a smoother user experience.
+
 //pure components vs components
+// PureComponent is similar to Component but it skips re-renders for same props and state.
+
+
+
 // for (i = 0; i < 5; i++) {
 //   console.log(i);
 // }
@@ -75,7 +85,7 @@
 // a();
 
 // console.log(i); //
-//o/p:0 0
+//o/p:0
 
 // var i = 2;
 

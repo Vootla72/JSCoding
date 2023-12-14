@@ -4,3 +4,24 @@
 4.wt are the key factors to be considered while developing web applications
 5.OOPS concepts
 6.consumer React API's
+
+**************
+
+2. JSX -- JavaScript Xml.
+it allows us to write html in react
+
+******************
+3.Agile and waterfall are two distinctive methodologies of processes to complete projects or work items. 
+Agile is an iterative methodology that incorporates a cyclic and collaborative process. 
+Waterfall is a sequential methodology that can also be collaborative, but tasks are generally handled in a more linear process.
+
+***********************
+
+
+**************
+4.Planning the Structure of Your Web Project
+Tools Used for Web Development
+Frameworks
+Mobie Integration
+Security,visibility and scalability
+
