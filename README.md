@@ -61,3 +61,11 @@ Array pictorial representation
 
 // unshift -> [array] <- push
 // shift   <- [array] -> pop
+
+
+**************************************************************************
+
+Note : Main difference between pop n slice in array methods JS is
+
+pop() returns the value/ respective word
+slice() ,method returns the respective conditional elements in an "array";
