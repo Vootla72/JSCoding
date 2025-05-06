@@ -1,0 +1,8 @@
+Visual Studio App Center is an integrated mobile development lifecycle solution for iOS, Android, Windows and macOS apps. It brings together multiple services commonly used by mobile developers, including build, test, distribute, monitoring, diagnostics , etc., into one single integrated cloud solution.
+
+
+
+Fastlane is not specific to React Native; 
+it's a tool that is used to automate the deployment and release process of mobile apps, including both iOS and Android. 
+It simplifies and streamlines tasks such as building, testing, code signing, and releasing your app to app stores.
+Fastlane provides a collection of tools and integrations that help developers save time and avoid manual, error-prone tasks when it comes to managing the app's lifecycle.

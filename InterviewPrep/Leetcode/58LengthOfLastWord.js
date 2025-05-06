@@ -31,4 +31,5 @@
 var lengthOfLastWord = function(s) {
     return s.trim().split(' ').pop().length;
 };
-// trim() removes whitespace from both sides of a string.. not in the middle
+//Note: trim() removes whitespace from both sides of a string.. not in the middle
+//Note: pop() will remove the last element in an array

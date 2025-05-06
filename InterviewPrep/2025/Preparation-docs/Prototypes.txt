@@ -1,0 +1,174 @@
+
+
+Array.prototype.myMap = function (callback) {
+  let result = [];
+  for (let i = 0; i < this.length; i++) {
+    result.push(callback(this[i], i, this));
+  }
+  return result;
+};
+
+
+const arr = [1, 2, 3];
+console.log(arr.myMap((num) => num * 2)); 
+
+
+
+
+
+
+Array.prototype.myFilter = function (callback) {
+  let result = [];
+
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i], i, this)) {
+      result.push(this[i]);
+    }
+  }
+
+  return result;
+};
+
+
+
+const numbers = [1, 2, 3, 4, 5];
+
+// Custom filter without `thisArg`
+const evenNumbers = numbers.myFilter(num => num % 2 === 0);
+console.log(evenNumbers); // [2, 4]
+
+
+
+
+
+Array.prototype.myReduce = function (callback, initialValue) {
+  if (this.length === 0 && initialValue === undefined) {
+    throw new TypeError("Reduce of empty array with no initial value");
+  }
+
+  let accumulator = initialValue !== undefined ? initialValue : this[0];
+  let startIndex = initialValue !== undefined ? 0 : 1;
+
+  for (let i = startIndex; i < this.length; i++) {
+    accumulator = callback(accumulator, this[i], i, this);
+  }
+
+  return accumulator;
+};
+
+
+
+const numbers = [1, 2, 3, 4];
+
+// Sum using myReduce
+const sum = numbers.myReduce((acc, num) => acc + num, 0);
+console.log(sum); // 10
+
+// Find the maximum number
+const max = numbers.myReduce((acc, num) => (num > acc ? num : acc));
+console.log(max); // 4
+
+
+**********************
+
+
+Array.prototype.myForEach = function (callback) {
+  if (typeof callback !== "function") {
+    throw new TypeError(`${callback} is not a function`);
+  }
+
+  for (let i = 0; i < this.length; i++) {
+    callback(this[i], i, this);
+  }
+};
+
+
+
+const numbers = [1, 2, 3, 4];
+
+// Using our custom forEach
+numbers.myForEach((num, index) => {
+  console.log(`Index ${index}: ${num}`);
+});
+
+
+
+************************
+
+
+Function.prototype.myBind = function (context, ...args) {
+  if (typeof this !== "function") {
+    throw new TypeError("myBind can only be called on functions");
+  }
+
+  const originalFunction = this;
+
+  return function (...newArgs) {
+    return originalFunction.apply(context, [...args, ...newArgs]);
+  };
+};
+
+
+
+const obj = { name: "Alice" };
+
+function greet(greeting, punctuation) {
+  console.log(`${greeting}, ${this.name}${punctuation}`);
+}
+
+const boundGreet = greet.myBind(obj, "Hello");
+boundGreet("!"); // Output: "Hello, Alice!"
+
+
+
+
+********************************
+
+
+Call polyfill
+
+
+Function.prototype.myCall = function (context, ...args) {
+  context = context || globalThis; // Use global object if context is null/undefined
+  const fn = Symbol(); // Create a unique property
+  context[fn] = this; // Assign the function to context
+  const result = context[fn](...args); // Call the function
+  delete context[fn]; // Remove the temporary property
+  return result; // Return the result
+};
+
+
+function sayHello(greeting) {
+  console.log(`${greeting}, I am ${this.name}`);
+}
+
+const person = { name: "Alice" };
+
+sayHello.myCall(person, "Hello"); // Output: "Hello, I am Alice"
+
+
+
+************************
+
+
+Function.prototype.myApply = function (context, argsArray) {
+  if (typeof this !== "function") {
+    throw new TypeError("myApply can only be used on functions");
+  }
+
+  context = context || globalThis;
+  const fnSymbol = Symbol();
+  context[fnSymbol] = this;
+
+  const result = context[fnSymbol](...(argsArray || [])); // Spread args array
+  delete context[fnSymbol];
+
+  return result;
+};
+
+
+greet.myApply(person, ["Hi", "!!"]); // Output: "Hi, Alice!!"
+
+
+
+

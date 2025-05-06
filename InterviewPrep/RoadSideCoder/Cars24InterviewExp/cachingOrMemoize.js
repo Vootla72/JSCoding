@@ -1,4 +1,5 @@
-//when inside a function there is an expensive calculation is present and each n every time it is taking  decent amount of time ,inorder to reduce this we will implement a memoize or caching function ,if same thing calcuated before,it will return the result without recalculating again
+//when inside a function there is an expensive calculation is present and each n every time it is taking  decent amount of time ,
+// inorder to reduce this we will implement a memoize or caching function ,if same thing calcuated before,it will return the result without recalculating again
 
 function myMemoize(fn, context) {
   const res = {};

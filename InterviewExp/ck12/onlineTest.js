@@ -55,7 +55,7 @@
 //   person.call(this, id, name1);
 // }
 // console.log(new student(50, 'bhav').name1);
-// o/p:undefined
+// o/p:undefined // as var is function scoped and those are npt binded to the function.. we cannot access
 
 
 // here u binded the variables to the person function

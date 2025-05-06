@@ -5,6 +5,6 @@ function prime(num) {
       if (num % i == 0) return false;
     }
   }
-  return true;
+  return true; // this case for i=2  & other prime numbers
 }
 console.log(prime(7));

@@ -1,7 +1,7 @@
 // console.log(typeof null); //o/p:object
 // console.log(typeof undefined); //o/p:undefined
 
-// // let a;
+// // let a;  **************** imp if let is after console.log its a reference error as let is block scoped
 // // console.log(a); //o/p:undefined
 // // console.log(x); //o/p:x is not defined-- Reference error
 
@@ -20,6 +20,11 @@
 //   return variable1 + variable2;
 // }
 // console.log(foo());
+
+/******************************************** */
+// the following question finds the common point
+// it collects the min of two numbes and adds the sum of digits of the min number to it.. and check
+// if both numbers are equal, then it returns the number
 
 // function compute_join_point(s1, s2) {
 //   var temp, n, sum;
@@ -41,6 +46,9 @@
 // }
 
 // console.log(compute_join_point(471, 480));
+
+
+////////////////solution 2///////////////////////
 
 // function getDigitsSum(x) {
 //   var sum = 0;

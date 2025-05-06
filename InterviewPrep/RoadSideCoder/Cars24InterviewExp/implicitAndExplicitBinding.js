@@ -1,4 +1,5 @@
-// Arrow functions don't have their own this or arguments binding. Instead, those identifiers are resolved in the lexical scope like any other variable. That means that inside an arrow function, this and arguments refer to the values of this and arguments in the environment the arrow function is defined in (i.e. "outside" the arrow function):
+// Arrow functions don't have their own this or arguments binding. Instead, those identifiers are resolved in the lexical scope like any other variable. 
+// That means that inside an arrow function, this and arguments refer to the values of this and arguments in the environment the arrow function is defined in (i.e. "outside" the arrow function):
 
 var obj = {
   name: 'bhavana',
@@ -12,6 +13,7 @@ var obj1 = {
 };
 obj.display();
 obj.display.call(obj1); // passing context obj1, so this in obj points to obj1;
+// whenever function is created, this keyword is created and it is not assigned to any object, it is assigned to the object which is calling the function
 
 //********************************************************* */
 

@@ -21,6 +21,12 @@ let flatted = [].concat(...arr);
 let flatted1 = arr.flat(2); //here 2 is the depth to flatten the array
 // console.log(flatted1); //o/p:[1,2,3,4,5,6, 7, 8, 9, 10, 11]
 
+
+// flatten the array using flat method aand infinity
+function flattenArr(arr1){
+  return arr1.flat(Infinity);
+}
+
 //custom function to flatten the array
 
 function customFlat(arr) {
@@ -49,3 +55,15 @@ function customFlat1(arr, depth = 1) {
 }
 
 console.log(customFlat1(arr));
+
+
+const flattenArr1 = (arr) => {
+  return arr.reduce((total, curr) => {
+      if (Array.isArray(curr)) {
+          total.push(...flattenArr1(curr));
+      } else {
+          total.push(curr)
+      }
+      return total;
+  }, [])
+}

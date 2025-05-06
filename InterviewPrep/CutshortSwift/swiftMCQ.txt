@@ -1,0 +1,10 @@
+let def = "red" // def is assigned the value "red"
+var user: String? // user is declared as an optional String with no value (nil)
+var color = user ?? def // color is assigned the value of user if it's not nil, otherwise, it's assigned the value of def
+
+o/p: red
+
+
+//////////////////////////////////////////////
+
+

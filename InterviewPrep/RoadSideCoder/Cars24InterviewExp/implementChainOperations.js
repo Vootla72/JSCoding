@@ -19,4 +19,6 @@ const calc = {
   },
 };
 const result = calc.add(10).multiply(5).subtract(30).add(10); //returns whole object of calc
+//To get the value of the operation console result.total
 console.log(result);
+

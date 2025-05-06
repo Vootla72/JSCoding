@@ -1,0 +1,17 @@
+
+Hook Rules:
+
+- Only can be used in react functional components
+- It should be called at the top of the component
+- It should not be conditionally used
+- You can’t call hook inside the use Effect — mine
+
+
+—————————————————
+
+
+Lazy loading 
+
+- Faster initial loading time
+- Improved performance
+- Efficient resource utilization

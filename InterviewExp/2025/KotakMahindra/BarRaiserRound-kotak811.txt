@@ -1,0 +1,233 @@
+// const arr =[123,456,783,456,123,456]
+
+// output
+// fn(1) = 456
+// fn(2) = 456,123
+// fn(3) = 456,123,783
+
+// Don't use in-built sort() method of javascript
+
+// Tech stack: Javascript
+
+// function getSort(mp){
+
+
+// }
+
+// function fn(arg){
+//     const arr =[123,456,783,456,123,456];
+//     let res=[];
+
+//     let mp ={};
+//     for(let i=0;i<arr.length;i++){
+//         if(mp[arr[i]]!==undefined){
+//             mp[arr[i]]++;
+//         }
+//         else{
+//             mp[arr[i]]=1;
+//         }
+//     }
+
+
+//     let resMp= {};
+
+//     for(let i=0;i<arr.length;i++){
+//         let key = mp[arr[i]];
+//         resMp[key]=arr[i];
+
+//     }
+    
+
+
+// return resMp
+
+
+
+
+// }
+
+// console.log(fn(1));
+
+
+
+
+
+
+Question: Shopping Cart Logic
+
+You are tasked with implementing a simple shopping cart system in React native.
+
+Given an array of product objects, your goal is to write functions that handle basic cart operations.
+
+Requirements:
+
+1. Calculate Total Price
+
+2. Remove Item from Cart
+
+3. Add New Product to Cart
+
+
+const products = [
+
+{ id: 1, name: "Product 1", price: 100 },
+
+{ id: 2, name: "Product 2", price: 150 },
+
+{ id: 3, name: "Product 3", price: 200 },
+
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const ShoppingCart = () => {
+
+    const [cartItems, setCartItems] = useState([])
+
+
+
+    const handleAddToCart = (item) => {
+        const itemExists = caetItems.find((ele)=> ele.id === item.id);
+        setCartItems((prev)=> {
+            if(itemExists){
+                return [...prev, {...item, count: item.count+1}]
+
+            }
+            else {
+               return [...prev,{...item, count:1}]
+            }
+
+        })
+
+    }
+
+
+    const handleRemoveCart = (item) => {
+        // const itemExists = cartItems.find((ele)=> ele.id === item.id);
+        setCartItems((prev)=> {
+           
+                return [...prev, {...item, count: item.count-1}]
+
+            }
+ ).filter((ele)=> ele.count>0)
+
+    }
+
+
+
+
+
+const renderItem  ({item}) => {
+
+    return (
+        <View>
+        <Text>{item.name}- ${item.price}</Text>
+        <TouchableOpacity onPress = {()=>handleAddToCart(item)}>AddTo Cart </TouchableOpacity>
+
+
+        </View>
+    )
+}
+
+
+const renderCartItem  ({item}) => {
+
+    return (
+        <View>
+        <Text>{item.name}- ${item.price}* {item.count}</Text>
+        <TouchableOpacity onPress ={()=>handleRemoveCart(item)}>Remove </TouchableOpacity>
+
+        </View>
+    )
+}
+
+
+// total
+
+const calTotal= () => {
+    // return cartItems.reduce((total,curr)=>total=curr.count*curr.price, 1)
+
+    return cartItems.reduce((total,curr)=> {
+        total = total+ (curr.count * curr.price)
+        return total
+    },0)
+}
+
+
+
+
+
+
+
+    return (
+        <>
+        <View>
+            <Text>Products </Text>
+            <FlatList
+            data={products}
+            renderItem = {renderItem}
+            keyExtractor ={item =>item.id}
+            />
+
+        </View>
+
+        <View>
+            <Text>Your Cart  </Text>
+            <FlatList
+            data={cartItems}
+            renderItem = {renderCartItem}
+            keyExtractor ={item =>item.id}
+            />
+
+        </View>
+
+        <Text>Total{calTotal()}</Text>
+</>
+    )
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+React native code sandbox link: https://h3z2sc.csb.app/
+
+
+
+
+Theory:
+
+1. how do u handle the memory leakages in react
+2. How do u get the SSR in React
+3. What are controlled and umcontrolled components
+4. What are Higher ORDER components
+5. Push Notifications in react native
+6. Routing in React
+7. Closures in js
+8. Event Loop in js
+9. Store - how to u handle the data across multiple components

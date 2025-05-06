@@ -12,4 +12,22 @@ function twoSum(array, sum) {
   }
   return results[0];
 }
+
+///solution 2
+
+function checkSum(arr, sum) {
+  let res = [];
+  let h = {};
+  for (var ele of arr) {
+    const numToFind = sum - ele;
+    if (h[numToFind]) {
+      res.push(h[numToFind], ele);
+      return res;
+    } else {
+      h[ele] = ele;
+    }
+  }
+  return res;
+}
+
 console.log(twoSum([10, 2, -2, -10, 3, 3], 0));

@@ -40,3 +40,5 @@
 
 // console.log(5 + '6'); //o/p:56 -- type:string
 // console.log(5 - '6'); //o/p:-1 -- type:number
+//console.log(5 + '6');: Implicit conversion to string, so it concatenates as strings, resulting in '56'.
+//console.log(5 - '6');: Implicit conversion to number, so it subtracts as numbers, resulting in -1.

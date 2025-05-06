@@ -19,3 +19,28 @@ animaux.sort(function (a, b) {
   return a.localeCompare(b);
 });
 console.log(animaux);
+
+//////////////////
+
+// sort the arr using a key
+
+
+
+function sortArr(arr, key){
+  return arr.sort((a,b)=>a[key]-b[key]);
+}
+
+// By default, the sort() function sorts values as strings.
+// so for numbers , as if sort consideered as string.. 1 comes before than 2 ryt.. so 100 will be first after that 25 in ascending order
+// const arr1=[1,25,100,6]
+// const arr2 =['ab', 'ac','ba','bh']
+const arr3 = [
+  {name:'bhavana', age:20},
+  {name:'vootla', age:14},
+  {name:'bv', age:24}
+]
+
+// console.log(sortArr(arr1))
+console.log(sortArr(arr3, "age"))
+
+

@@ -1,0 +1,7 @@
+1. How do you handle flatlist with large no of data
+2. If App Crash is happening on Android 14 only .. How do u detect - you don’t have crashlytics
+3. How do u create scalable Mobile App React Native Application
+4. Object.freeze() and Object.seal() — difference
+5. Shallow Copy and Deep Copy
+6. How do u handle if there are conflicts going on with in the team for a solution
+7. What is Debounce?. Why it is required and where

@@ -1,0 +1,78 @@
+
+
+const StyledContainer = Styled.div``;
+
+
+
+const StyledContainer = (props) => return css`
+display: 'flex',
+flexDirection: 'column',
+color: {show}? 
+`
+
+
+
+const StyledComponent = styled(StyledContainer) `
+display: 'block',';
+
+`
+
+
+loginRes: true/false
+
+
+useAuthStore(email, password)
+const loginRes = useZustand()
+useUserLoginApi (emil.pass)--> return the sucess or failure
+
+export type Tgame = Array<ITem>
+
+
+
+1. Data sync and Offline support handling
+2. During Build Time if gradle or issue comes how do u debug
+3. What are the types of inputs -- input, textInput etc
+    in input -- e.target.value gives the changed or latest typed character.. which one to use to get the overall string instead of using state variable to hold the overall
+4. In React Native.. we will use useMemo more -- because we dont want to rerender the dom..
+5. If u have a library and u want to add onClick Handler to that library -- and that library wont pass any prop opr Handler
+    - here as we can access the dom element by useRef -- we can add a handler to that && patch package
+6. Promise.all()
+7. Pure Components
+8. How do u handle the navigation -- tabs and other in react Native
+9. what is the major difference u observe in contextAPI and Redux
+10. How flexBox properties are different in web and Mobile (React Native) -- which properties wont work
+11. what are styled components and how will u reuse - when u create base component and extends it for another component
+12. In react native, for different types of devices how do u ensure the responsive ness - use media query or any other library
+13. In the following question: will the component re-render .. if not why??
+
+    export const wrapperComp = () => {
+    let myName = 'abc';
+
+    <StyledContainer textColor={"FFFF"} myName={myName}>
+        </StyledContainer>
+
+
+    }
+
+14. Below are the typescript questions:
+    a. syntax of interface and type
+    b. when to declare record type - <string, string> if object has 5 elements and we donno the type
+    c. when u are passing a handler as a prop - wt will be the typescript syntax 
+        - how it changes when its a optional prop
+
+            interface Iabc{
+                onClick ?: () => void
+            }
+
+    d. If i want a variable can be either string or null.. wts the typescript syntax
+        - string | null
+
+
+
+
+    
+    
+
+
+
+

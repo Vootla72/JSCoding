@@ -1,0 +1,3 @@
+
+
+Subsequence: A subsequence is a string generated from the original string by deleting 0 or more characters and without changing the relative order of the remaining characters.

@@ -1,0 +1,8 @@
+1. useEffect bs useLayout
+2. what are the ways to exchange data between child to parent and vice - versa
+3. what are the different types of hooks used in ur project
+4. useMemo, useCallback and React.memo
+5. what is the difference between react js and react native
+6. what are the custom hooks u have created and use in ur project
+7. what is the difference between zustand and redux
+8. on What basis u will choose the state management tool for the project

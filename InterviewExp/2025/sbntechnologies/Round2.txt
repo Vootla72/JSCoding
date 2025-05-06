@@ -1,0 +1,5 @@
+1.design a custom hook for permissions to access cam & location in react-native
+2.create a todo list using useREDUCER with typescript ---add , delete
+
+3.animate a card flip using reanimated-2
+4.add dark mode support using context API

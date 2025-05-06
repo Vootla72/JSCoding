@@ -6,6 +6,7 @@ function arrangeNumbers(arr) {
   while (first < last) {
     while (arr[first] == 0 && first < last) first++;
     while (arr[last] == 1 && first < last) last--;
+    // condition to check if l and r are crossed
     if (first < last) {
       arr[first] = 0;
       arr[last] = 1;

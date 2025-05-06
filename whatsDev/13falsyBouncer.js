@@ -37,3 +37,10 @@ function falsyBouncer2(arr) {
 }
 
 console.log(falsyBouncer2(['bhav', '', false, 7]));
+
+//M-4 using Boolean as a callback function in filter method
+
+function falsyBouncer2(arr){
+  return arr.filter(Boolean);
+
+  }

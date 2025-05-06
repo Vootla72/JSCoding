@@ -27,7 +27,24 @@ function removeDuplicatesFilter(arr) {
 // Sets are a new object type with ES6 (ES2015) that allows you to create collections of unique values.
 function removeDuplicatesSet(arr) {
   return [...new Set(arr)];
+  // note new Set(arr) returns the object which needs to be spread inside the array to return it as array
 }
 console.log(removeDuplicatesSet(arr));
 
 // Link:https://levelup.gitconnected.com/7-ways-to-remove-duplicates-from-array-in-javascript-cea4144caf31
+
+// woithout using any inbuilt functions
+
+function removeDuplicates2(arr) {
+  let res = [];
+  let mp = {};
+
+  for (let i = 0; i < arr.length; i++) {
+    if (!mp[arr[i]]) {
+      mp[arr[i]] = true;
+      res.push(arr[i]);
+    }
+  }
+
+  return res;
+}

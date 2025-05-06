@@ -1,0 +1,146 @@
+
+
+Guidelines for new architecture of React Native
+
+https://github.com/anisurrahman072/React-Native-Advanced-Guide/blob/master/New-Architecture/New-Architecture-in-depth.md#old-architecture-quick-overview
+
+
+https://www.linkedin.com/in/bhavanavootla/
+
+
+Resume type link - https://www.linkedin.com/posts/rohangoyal16_resume-ats-atsfriendlyresume-activity-7313407370435383296-6ARQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEmdpkBNYNjn6wSGoaKZd2cVpeJl1RCF4U
+
+
+
+
+https://jobs.intuit.com/job/bengaluru/software-engineer-2/27595/77913719936
+
+
+
+https://wingify.keka.com/careers/jobdetails/77405
+ — promise.all - polyfill
+— Array.flat. - polyfill
+— Stringify  - polyfill
+
+
+
+
+Hiring Manager Template for Referral
+
+
+https://www.linkedin.com/posts/rajatgajbhiye_reach-out-templates-to-the-hiring-manager-activity-7204082074389999616-YoQ5/?utm_source=share&utm_medium=member_desktop
+
+
+
+
+
+
+https://docs.google.com/document/d/1p2U_XEF_uF_oBnw0H0NTjXJoLfShHxPT/edit
+
+Coding problems patterns
+
+Cracking Leetcode problems fast during coding interviews = Knowing & recognizing the patterns.
+
+I struggled with coding interviews until I understood and implemented these 20 essential coding patterns. (Sample problems in comments)
+
+ 1/ Sliding Window 
+- Used when handling input data in a fixed window size. 
+- Helps optimize problems that involve subarrays or substrings. 
+- Avoids brute force by moving the window dynamically. 
+
+ 2/ Islands (Matrix Traversal) 
+- Used for traversing 2D grids or matrices efficiently. 
+- Commonly applies DFS or BFS for searching connected components. 
+- Helps solve problems related to islands, clusters, or paths. 
+
+ 3/ Two Pointers 
+- Uses two pointers to traverse data, often from opposite directions. 
+- Helps optimize problems involving pairs, sorting, or merging. 
+- Reduces time complexity compared to brute force. 
+
+ 4/ Fast & Slow Pointers 
+- Also known as the Hare & Tortoise Algorithm. 
+- Uses two pointers moving at different speeds to detect cycles. 
+- Commonly used for linked lists and circular arrays. 
+
+ 5/ Merge Intervals 
+- Deals with overlapping intervals. 
+- Used for scheduling, reservations, and range merging. 
+- Sorting intervals first usually helps in solving these problems. 
+
+ 6/ Cyclic Sort 
+- Used when elements fall within a fixed range. 
+- Helpful for finding missing or duplicate numbers in arrays. 
+- Uses in-place sorting instead of extra space. 
+
+ 7/ In-Place Reversal of a LinkedList 
+- Used to reverse the links between a set of nodes in-place. 
+- Often needs to be done without using extra memory. 
+- Works well for problems involving modifying linked list structure. 
+
+ 8/ Breadth-First Search (BFS) 
+- Traverses trees or graphs level by level. 
+- Used for finding shortest paths or exploring neighbors first. 
+- Implemented using a queue. 
+
+ 9/ Depth-First Search (DFS) 
+- Traverses deep into trees or graphs before backtracking. 
+- Used for recursion-based traversal and path-related problems. 
+- Implemented using stack or recursion. 
+
+ 10/ Two Heaps 
+- Divides data into two halves: one for small elements, one for large ones. 
+- Uses Min-Heap and Max-Heap for quick median or priority access. 
+- Commonly used in streaming data or priority-based queries. 
+
+ 11/ Subsets 
+- Used for problems requiring combinations or permutations. 
+- Applies backtracking or BFS to generate all possible subsets. 
+- Useful for problems involving decision trees. 
+
+ 12/ Modified Binary Search 
+- Optimizes searching within a sorted dataset. 
+- Used for problems involving rotated arrays, peak elements, or range queries. 
+- Often leads to O(log N) complexity instead of brute force. 
+
+ 13/ Bitwise XOR 
+- Uses the XOR operator for bit manipulation problems. 
+- Great for finding missing or unique elements efficiently. 
+- Works without extra space or sorting. 
+
+
+
+
+
+
+Promises in Javascript : Interview Experience!
+
+Q: Can you explain the difference between .then() and .catch()?
+A: .then() handles fulfilled promises, while.catch() handles rejections. If there's an error anywhere in the chain, .catch() catches it.
+
+Q: What happens if you return a value inside .then()?
+A: It automatically wraps the value in a resolved promise, allowing further chaining.
+
+Q: How do you handle multiple promises efficiently?
+A: Use Promise.all() for parallel execution, but if any fails, the entire thing rejects. Promise.allSettled() ensures all results, whether resolved or rejected.
+
+Q: How do you convert a callback-based function to a promise?
+A: Wrap it inside new Promise((resolve, reject) => { /* callback logic */ }). Or better, use util.promisify() in Node.js.
+
+Q: What's the difference between Promise.race() and Promise.any()?
+A: Promise.race() resolves/rejects as soon as the first promise settles. Promise.any() resolves on the first success, ignoring rejections unless all fail.
+
+Q: How does async/await handle errors?
+A: Wrap it in try...catch, or let it bubble up and handle it with.catch() on the returned promise.
+
+
+
+
+
+Machine coding -  https://www.linkedin.com/posts/darshan-patil-4843b0218_reactjs-machinecoding-frontendinterview-activity-7313816040180793345--Qad?utm_source=share&utm_medium=member_desktop&rcm=ACoAACEmdpkBNYNjn6wSGoaKZd2cVpeJl1RCF4U
+
+
+
+
+
+

@@ -36,4 +36,8 @@ function palindrome1(str){
   var reversedStr = newStr.split('').reverse().join('');
   return reversedStr=newStr;
 }
-console
+
+
+function isPalindrome(s1){
+  return s1.toLowerCase() == s1.toLowerCase().split("").reverse().join("");
+}

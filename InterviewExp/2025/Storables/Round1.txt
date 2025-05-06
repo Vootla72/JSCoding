@@ -1,0 +1,30 @@
+1. Debouncing Custom Hook
+2. Streaming n non Streaming Data - Socket Connection and API call data fetching
+3. CSR vs SSR
+4. React vs NEXTJS - which will be SEO friendly (NEXT - as its using SSR)
+5. What is MicroFrontend
+6. GraphQL - to limit the data from an api as per required (only 10 elements etc)
+7. Axios Interceptors - Why
+    Axios interceptors are functions that are called by Axios for every request or response. 
+    They allow you to run code or modify the request or response before the request is sent or after the response is received. 
+    Interceptors act as middleware, allowing you to modify the request or response configuration, headers, and data. 
+    They offer a gateway to modify, authenticate, or handle errors at a centralized level.
+    include an authentication token in every request's headers
+
+8. Routing
+
+
+    * <BrowserRouter>: It is used for handling the dynamic URL.
+    * router is a component that manages navigation
+    * Route: It is used to define and render component based on the specified path. It will accept components and render to define what should be rendered.
+    * Outlet : - nested 
+            A route renders an element via path
+            A route has child routes
+            The Outlet element tells the route element where and when to render the child routes within the page
+
+
+
+    Benefits Of React Router
+    The benefits of React Router is given below:
+    * In this, it is not necessary to set the browser history manually.
+    * Link uses to navigate the internal links in the application. It is similar to the anchor tag.

@@ -1,0 +1,21 @@
+// react native
+
+1.create a To-Do app in React Native that supports adding, deleting, and updating tasks, 
+while ensuring the data is retained even after a page refresh? Use AsyncStorage to persist the data.
+
+
+// DSA and Problem Solving
+
+2. LRU Cache - Lru cache (image cache (n)..remove the least accessed ) in js use hashmap and linked list
+
+// Native Modules
+
+3.
+(a)Android activity life cycle
+When configurations changes without running entire activity efficiently
+
+(b)Memory Efficiently in Android and iOS..garbage collection
+
+can u explain
+
+https://codesandbox.io/p/sandbox/bitter-browser-5rf9hn?file=%2Fsrc%2FApp.js%3A5%2C20-5%2C31

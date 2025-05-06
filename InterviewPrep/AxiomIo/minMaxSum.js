@@ -5,7 +5,7 @@ data = data.sort();
 
 // to get the sets only
 
-let minSet = data.slice(0, -1); //without last element
+let minSet = data.slice(0, -1); //without last element-- slice of 2nd index will not be included
 let maxSet = data.slice(1);
 console.log(minSet, maxSet);
 

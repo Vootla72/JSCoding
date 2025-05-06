@@ -26,7 +26,7 @@ export default function App() {
     console.log(item1);
 
     // return data.filter((item) => item1 === item.firstName);
-   return   data.forEach((item) => console.log( item.firstName);
+   return   data.forEach((item) => console.log( item.firstName));
   }
   return (
     <div className="App">

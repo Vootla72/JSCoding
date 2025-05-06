@@ -1,0 +1,56 @@
+
+
+
+Forward Ref: Its not a react hook… Its an api, Exposing DOM Node to Parent Component
+
+
+By default, each component’s DOM nodes are private. However, sometimes it’s useful to expose a DOM node to the parent—for example, to allow focusing it. To opt in, wrap your component definition into forwardRef():
+
+Ref:
+https://react.dev/reference/react/forwardRef
+
+
+Stack blitz********
+https://stackblitz.com/edit/react-xqm5jt?file=src%2FApp.js,src%2FHooks%2FforwardRef%2FFormComponent.js,src%2FHooks%2FforwardRef%2FMyInput.js
+
+
+
+
+************useImperartiveHandle***********
+
+useImperativeHandle is a React Hook that lets you customize the handle exposed as a ref.
+
+useImperativeHandle(ref, createHandle, dependencies?)
+
+Usage: Exposing a custom ref handle to the parent component
+
+Ref: The ref you received as the second argument from the forwardRef render function.
+* createHandle: A function that takes no arguments and returns the ref handle you want to expose. That ref handle can have any type. Usually, you will return an object with the methods you want to expose.
+
+Exposing a custom ref handle to the parent component 
+
+
+Exposing few methods not full ref
+
+
+Ref: https://react.dev/reference/react/useImperativeHandle
+
+Stack Blitz*******
+
+https://stackblitz.com/edit/react-xqm5jt?file=src%2FApp.js,src%2FHooks%2FforwardRef%2FFormComponent.js,src%2FHooks%2FforwardRef%2FMyInput.js,src%2FHooks%2FforwardRef%2FMyInputImperative.js
+
+
+
+*******************************   Simpler email regex  Here's an even simpler email validation regex:
+regex
+Copy code
+.+@.+\..+
+Explanation:
+1. .+: Matches one or more characters (anything) before the @ symbol.
+2. @: Matches the @ symbol.
+3. .+: Matches one or more characters (anything) after the @ and before the dot (.).
+4. \.: Matches a literal dot (.).
+5. .+: Matches one or more characters (anything) after the dot.
+
+
+

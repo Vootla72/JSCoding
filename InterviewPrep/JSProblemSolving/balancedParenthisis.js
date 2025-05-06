@@ -11,4 +11,4 @@ function isBalanced(str) {
 
   return stack.length !== 0 ? false : true;
 }
-console.log(isBalanced('((()))'));
+console.log(isBalanced('((()))')); // true

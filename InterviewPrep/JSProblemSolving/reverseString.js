@@ -13,3 +13,20 @@ function reverseStringScratch(Str) {
   return s;
 }
 console.log(reverseStringScratch('bhavana'));
+
+////////wrong//////////
+
+// Incorrect String Indexing: In JavaScript, \
+// strings are immutable, meaning you can't change individual characters of a string by assigning them to specific indices (res[n-i+1] = s1[i]). 
+// Instead, you need to build the reversed string by concatenating characters.
+
+function reverseStr(s1){
+  let res="";
+  let n = s1.length;
+  for(let i=n-1;i>=0;i--){
+    console.log('***1223', i-n+1, i)
+    res[n-i+1]= s1[i];
+  }
+  return res;
+
+}

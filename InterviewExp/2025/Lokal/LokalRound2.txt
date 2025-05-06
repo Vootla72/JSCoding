@@ -1,0 +1,74 @@
+
+
+1. How is push notification design created
+    1. UI , image and text
+2. Wt are deeplinks and universal links
+3. How does firebase remote config work in the background
+4. In Flat list, if I will do fast scrolling.. blank spaces will appear..how do u resolve that by not comprising on memory
+5. Wt is deep cloning.. wt are the ways u do it
+    1. Spreading the array has some disadvantages for deep cloning - wt are those
+6. Crashlytics issue - how do u simulate when some crashes happened on the user side.. apart from logs — errorBoundary by me
+7. Wt is eventloop in js
+8. Wt are interactive widgets
+9. How the data is transferred from js to native modules and utilise there
+10. How do u get the time value in sync with ur clock..if so many async calls are happening.. the timer uses setInterval (10:00, 10:01)
+11. Routing.. how do u handle that deep links will work for the following urls..
+    1. If the deeplinks needs to be authenticated first and the  redirect how do u handle in react native
+12. I have a file.. where more async calls are happening.. I have a setTimeout().. is the value inside the setTimeout will execute at exactly once the timer is done.. or by the eventloop concepts.. it takes time to display.
+    1. If that is the case, then in which way I will get the setTimeout value resolved to be displayed at the same time instead of waiting 
+
+
+// js o/p based questions
+
+
+Promise.resolve().then(() => console.log(1))
+
+setTimeout(() => console.log(2), 0);
+
+queueMicrotask(() =>{
+  console.log(3)
+  queueMicrotask(() => console.log(4))
+})
+
+
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log(i), 1);
+}
+
+
+
+// react native question
+
+1. Implement pagination of infinite scrolling by changing the query parameter in url when user reaches to the end of the page
+Create an expo project and complete the following requirements
+
+Given the endpoint - https://testapi.getlokalapp.com/common/jobs?page=1
+
+* Create an infinite list of job openings from the above API
+* Each job card should contain the title, salary, phone number & location
+* Search functionality to search a job by 'title'
+* Proper handling of loading, error and retry conditions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

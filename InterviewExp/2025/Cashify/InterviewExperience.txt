@@ -1,0 +1,22 @@
+
+
+
+
+Round 1: Technical Foundations
+Basic introductions and a dive into core JavaScript concepts.
+
+Coding a polyfill for the call method.
+Explaining closures and React hooks.
+Understanding why async functions aren't directly used in useEffect.
+Building a data fetching and client-side search feature using TypeScript.
+
+Round 2: 
+
+Discussions on TypeScript generics, useState vs. useReducer, and the internal workings of useState.
+Exploring Next.js fundamentals, including the starting point and the role of _document.js.
+Strategies for SEO optimization and improving Core Web Vitals.
+A detailed of my project experience.
+
+
+explain with example for theoretical questions
+
